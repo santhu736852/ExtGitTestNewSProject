@@ -8,14 +8,10 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.extgittestnews.integrations:Logic
+- serviceName: project.extgittestnews.integrations:testdf
   packages:
   - name: ExtGitTestNewSProject
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2026
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
